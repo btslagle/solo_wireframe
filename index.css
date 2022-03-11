@@ -7,9 +7,63 @@ font-family: League Gothic;
 header {
     display: flex;
     justify-content: space-between;
-}
-.hero {
-    width: 500px;
-    height: 500px;
+    text-align: justify;
+    background-color: hsl(240, 1%, 17%);
+
 }
 
+h1 {
+    size:50em;
+}
+
+h1, nav {
+    display: inline-block;
+    background-color: hsl(240, 1%, 17%);
+    color:hsl(0, 0%, 62%);
+    size: 3em;
+
+}
+
+nav > ul{
+display: flex;
+flex-flow: row nowrap;
+padding: 0 5em;
+size: 3em;
+}
+
+li, a {
+    padding: 0 1em;
+    text-decoration: none;
+    color: hsl(0, 0%, 62%);
+    size:3em;
+}
+.meta {
+    display:flex;
+    justify-content: center;
+}
+
+.logo {
+    color: hsl(0, 0%, 62%);
+
+}
+
+
+.hero {
+    max-width: 100%;
+    position: relative;
+}
+
+.call-to-action {
+    position:absolute;
+}
+
+article {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr ;
+    color: hsl(0, 0%, 62%);
+    background-color: hsl(240, 1%, 17%);
+
+}
+
+    
