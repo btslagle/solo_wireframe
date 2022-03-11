@@ -3,3 +3,14 @@
 body {
 font-family: League Gothic;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+.meta {
+    display: flex;   
+}
+
+.actions {
+  
