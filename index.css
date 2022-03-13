@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Sansita+Swashed:wght@500&display=swap');
 
+
 body {
 font-family: League Gothic;
 }
@@ -9,17 +10,24 @@ header {
     justify-content: space-between;
     text-align: justify;
     background-color: hsl(240, 1%, 17%);
+    color:hsl(0, 0%, 62%);
+    font-size: 25px;
+    padding: 12px, 48px;
 
 }
 
 h1 {
-    size:50em;
+
 }
 
-h1, nav {
+.navigation {
+    
+}
+
+h1 nav {
     display: inline-block;
     background-color: hsl(240, 1%, 17%);
-    color:hsl(0, 0%, 62%);
+    
     size: 3em;
 
 }
@@ -27,19 +35,20 @@ h1, nav {
 nav > ul{
 display: flex;
 flex-flow: row nowrap;
-padding: 0 3em;
-size: 3em;
+padding: 0, 12px;
+
 }
 
 li, a {
-    padding: 0 1em;
+    padding: 0 ;
     text-decoration: none;
     color: hsl(0, 0%, 62%);
-    size:3em;
+    padding: 0 ,12px;
 }
 .meta {
     display:flex;
     justify-content: center;
+    
 }
 
 .logo {
@@ -57,37 +66,49 @@ li, a {
     position:absolute;
     color: hsl(0, 0%, 62%);
 
+
 }
 
 article {
     display: grid;
-    grid-template-columns: repeat(2,lfr);
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 5px;
+    column-gap: 5px;
     color: hsl(0, 0%, 62%);
     background-color: hsl(240, 1%, 17%);
+    font-size: 
 
 }
-article, h2 {
-    grid-column: 1 /span 1;
+h3 {
+    font-size: 40px;
+    }
+
+p  {
+    padding: 5px;
+}    
+section h3 {
+    grid-column: 1 /span 2;
     grid-row: 1 span 1;
 }
 
-article, .grid-item1 {
+section .grid-item1 {
     grid-column: 1 /span 1;
     grid-row: 2 span 1;
 
 }
-article, .grid-item2 {
+section .grid-item2 {
     grid-column: 1 /span 1;
     grid-row: 3 span 1;
 
 }
 
-article, .grid-item3 {
+section .grid-item3 {
     grid-column: 2 /span 1;
     grid-row: 2 span 1;
 
 }
-article, .grid-item3 {
+section .grid-item3 {
     grid-column: 2 /span 1;
     grid-row: 2 span 1;
 
