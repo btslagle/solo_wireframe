@@ -1,25 +1,28 @@
-/*@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Sansita+Swashed:wght@500&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
-
-body {
-    font-family: Sansita Swashed;
-    display:grid;
-    grid-template-rows: auto auto auto;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Sansita+Swashed:wght@500&display=swap'); 
+/*@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap'); /*
 
 /*body {
+    font-family: Sansita Swashed;
+    display: grid;
+    grid-template-rows: auto auto auto; 
+}*/
+
+
+
+
+body {
 font-family: League Gothic;
 display: grid;
 grid-template-rows: auto auto auto;
-} */
+} 
 
 header {
     display: flex;
     justify-content:space-between;
     background-color: hsl(240, 1%, 17%);
     color:hsl(0, 0%, 62%);
-    padding: 12px, 48px;
+    padding: 12px 48px;
+    
     
 
 }
@@ -37,15 +40,27 @@ main > * {
 
 a{
     text-decoration: none;
+    color:hsl(0, 0%, 62%);
 }
 
-.navigation {
+.navigation  {
     display: flex;
 }
 
-h1, .navigation{
+.navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: hsl(32, 92%, 33%);
+}
+.actions a:hover {
+    color: hsl(32, 92%, 33%);
+}    
+h1 .navigation{
     display: inline-block;
     align-items: center;
+    font-size: 40px;
     }
 
 h1 {
@@ -63,13 +78,21 @@ margin-left: 24px;
     margin-left: 30px;
 }
 
-li, a {
+.actions a + a  {
+    margin-left: 8px;
+}
+.actions a + a::before {
+    content:" | " ;
+    margin-right: 8px;
+}    
+
+li a {
     padding-left: 8px;
     padding-right: 8px;
     text-decoration: none;
     color: hsl(0, 0%, 62%);
     font-size: 20px;
-}
+}   
 
 .meta {
     display:flex;
@@ -79,7 +102,9 @@ li, a {
 
 .logo {
     color: hsl(0, 0%, 62%);
-    
+    justify-content: center;
+    align-items: center;
+        
 }
 
 img {
@@ -94,6 +119,9 @@ img {
 .hero .call-to-action {
     position:absolute;
     bottom: 20%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     
 }
 
@@ -103,7 +131,7 @@ img {
 .call-to-action a {
     font-size: 18px;
     display: inline-block;
-    border: 2px solid darkorange;
+    border: 2px solid hsl(0, 0%, 62%);
     border-radius: 33%;
     padding: 12px;
     margin-top: 16px;
@@ -111,21 +139,23 @@ img {
     
 }
 .call-to-action a:hover{
-    color: darkorange;
+    color: hsl(32, 92%, 33%);
 }
 
 .call-to-action p {
     font-size: 36px;
     color: hsl(0, 0%, 62%);
     max-width: fit-content;
+    justify-content: center;
 }
 
 div .call-to-action {
     max-width: 100%;
+    justify-content: center;
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 48px;
 }
 h3 {
     font-size: 35px;
@@ -136,6 +166,12 @@ p  {
     padding: 5px;
     
 }    
+
+h3 p {
+    padding: 14px;
+
+
+}
 
 .grid-item-1 {
 grid-row: 2 / span 1;
