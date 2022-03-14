@@ -22,9 +22,6 @@ header {
     background-color: hsl(240, 1%, 17%);
     color:hsl(0, 0%, 62%);
     padding: 12px 48px;
-    
-    
-
 }
 
 main{
@@ -32,10 +29,11 @@ main{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: hsl(0, 0%, 93%);
+    
 }
 
 main > * {
-    padding: 18px;
+    padding: 12px 48px;
 }
 
 a{
@@ -63,7 +61,7 @@ h1 .navigation{
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
 }    
 
@@ -80,6 +78,7 @@ align-self: center;
 }
 .actions {
     align-self: center;
+    text-transform: lowercase;
 }
 .actions a {
     font-size: 20px;
@@ -164,6 +163,7 @@ img {
 
 h2 {
     font-size: 48px;
+    padding: 12px 48px;
 }
 h3 {
     font-size: 35px;
@@ -172,6 +172,7 @@ h3 {
 
 p  {
     padding: 5px;
+    font-size: 20px;
     
 }    
 
@@ -180,6 +181,11 @@ h3 p {
 
 
 }
+
+.grid-item-1 + a {
+    text-align: center;
+}
+
 
 .grid-item-1 {
 grid-row: 2 / span 1;
