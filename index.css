@@ -60,26 +60,34 @@ a{
 h1 .navigation{
     display: inline-block;
     align-items: center;
-    font-size: 40px;
-    }
+}
 
 h1 {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 700;
 }    
 
 .navigation > ul{
 display: flex;
 flex-flow: row nowrap;
-margin-left: 24px;
+margin-left: 40px;
+align-self: center;
 }
 
 .navigation li + li {
     margin-left: 30px;
-}
 
+}
+.actions {
+    align-self: center;
+}
+.actions a {
+    font-size: 20px;
+    
+}
 .actions a + a  {
     margin-left: 8px;
+    
 }
 .actions a + a::before {
     content:" | " ;
