@@ -23,6 +23,14 @@ header {
     color:hsl(0, 0%, 62%);
     padding: 12px 48px;
 }
+@media (max-width: 800px) {
+    header {
+    display: flex;
+    flex-flow: column nowrap;
+    }
+}
+
+
 
 main{
     padding:12px 20px;
@@ -43,6 +51,13 @@ a{
 
 .navigation  {
     display: flex;
+}
+
+@media (max-width: 800px) {
+    .navigation > ul {
+    display: flex;
+    flex-flow: column nowrap;
+    }
 }
 
 .navigation a {
@@ -76,6 +91,12 @@ align-self: center;
     margin-left: 30px;
 
 }
+@media (max-width: 800px) {
+    .navigation li + li {
+    margin-left: 0;
+    }
+}
+
 .actions {
     align-self: center;
     text-transform: lowercase;
@@ -105,6 +126,13 @@ li a {
     display:flex;
     justify-content: center;
     
+}
+
+@media (max-width: 800px) {
+    .meta {
+    display: flex;
+    flex-flow: column nowrap;
+    }
 }
 
 .logo {
