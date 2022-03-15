@@ -156,6 +156,20 @@ img {
     bottom: 20%;
 } 
 
+.hero img {
+    filter: contrast(50%);
+}
+
+.color-wash {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(240, 1%, 17%,0.3);
+    z-index: 5;
+
+}
 
 
 .call-to-action a {
@@ -185,6 +199,7 @@ img {
     width: 100%;
     text-transform: uppercase;
     text-align: center;
+    z-index: 10;
 }
     
 
