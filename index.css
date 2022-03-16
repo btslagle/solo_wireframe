@@ -167,9 +167,8 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: hsla(hsl(221, 9%, 33%),0.3);
-    z-index: 5;
-
+    background-color: hsla(hsl(240, 1%, 17%),0.5);
+    z-index: 3;
 }
 
 .Comming_Soon  {
@@ -219,7 +218,7 @@ margin-top: 200px;
     width: 100%;
     text-transform: uppercase;
     text-align: center;
-    z-index: 10;
+    z-index: 25;
 }
     
 
