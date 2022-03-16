@@ -167,8 +167,8 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: hsla(hsl(240, 1%, 17%),0.5);
-    z-index: 3;
+    background-color: hsla(240, 1%, 17%, 0.4);
+    z-index: 10;
 }
 
 .Comming_Soon  {
@@ -191,6 +191,13 @@ margin-top: 200px;
     color: hsl(32, 92%, 33%);
 }
 
+.call-to-action {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 15;
+}
+
 .call-to-action a {
     font-size: 20px;
     display: inline-block;
@@ -211,16 +218,10 @@ margin-top: 200px;
     font-size: 36px;
     color: hsl(0, 0%, 62%);
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
 }
 
-.call-to-action {
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    
-    z-index: 25;
-}
+
     
 
 
