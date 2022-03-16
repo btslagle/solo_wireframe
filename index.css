@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content:space-between;
     background-color: hsl(240, 1%, 17%);
-    color:hsl(0, 0%, 62%);
+    color: hsl(36, 4%, 96%);
     padding: 12px 48px;
 }
 @media (max-width: 800px) {
@@ -47,7 +47,7 @@ main > * {
 
 a{
     text-decoration: none;
-    color:hsl(0, 0%, 62%);
+    color: hsl(36, 4%, 96%);
 }
 
 .navigation  {
@@ -120,7 +120,7 @@ li a {
     padding-left: 8px;
     padding-right: 8px;
     text-decoration: none;
-    color: hsl(0, 0%, 62%);
+    color: hsl(36, 4%, 96%);
     font-size: 20px;
 }   
 
@@ -138,9 +138,10 @@ li a {
 }
 
 .logo {
-    color: hsl(0, 0%, 62%);
+    color: hsl(36, 4%, 96%);
     justify-content: center;
     align-items: center;
+    width:80px;
         
 }
 
@@ -150,8 +151,10 @@ img {
 
 .hero {
     position: relative; 
+    background-color: black;
     
 }
+
 
 .hero .call-to-action {
     position:absolute;
