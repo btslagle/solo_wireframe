@@ -71,15 +71,12 @@ a{
 .actions a:hover {
     color: hsl(32, 92%, 33%);
 }    
-h1 .navigation{
+.logo .navigation {
     display: inline-block;
     align-items: center;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: 700;
-}    
+
 
 .navigation > ul{
 display: flex;
@@ -239,11 +236,11 @@ margin-top: 200px;
     
 
 
-h2 {
+h1 {
     font-size: 48px;
     padding: 12px 48px;
 }
-h3 {
+h2 {
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 16px;
@@ -273,7 +270,7 @@ p  {
 }
 
 @media (max-width: 800px) {
-    main h2 {
+    main h1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     margin-bottom: 15px;
