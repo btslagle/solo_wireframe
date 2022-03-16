@@ -156,6 +156,7 @@ img {
 .hero .call-to-action {
     position:absolute;
     bottom: 20%;
+    
 } 
 
 .Comming_Soon  {
@@ -178,9 +179,13 @@ margin-top: 200px;
     color: hsl(32, 92%, 33%);
 }
 
+.hero {
+    background-color: black;
+}
 
 .hero img {
     filter: contrast(50%);
+    
 }
 
 .color-wash {
@@ -190,7 +195,7 @@ margin-top: 200px;
     left: 0;
     right: 0;
     background-color: hsla(222, 18%, 11%, 0.3);
-    z-index: 10;
+    z-index: 1
 }
 
 
@@ -198,7 +203,8 @@ margin-top: 200px;
     width: 100%;
     text-transform: uppercase;
     text-align: center;
-    z-index: 20;
+    z-index: 1;
+
 }
 
 .call-to-action a {
