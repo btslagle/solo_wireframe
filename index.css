@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-
-/*@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap'); /*
-
-/*body {
-    font-family: Sansita Swashed;
-    display: grid;
-    grid-template-rows: auto auto auto; 
-}*/
-
 body {
     font-family: League Gothic;
     display: grid;
