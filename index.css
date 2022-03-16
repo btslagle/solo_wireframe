@@ -113,6 +113,7 @@ align-self: center;
 .actions a + a::before {
     content:" | " ;
     margin-right: 8px;
+    
 }    
 
 li a {
@@ -157,20 +158,6 @@ img {
     bottom: 20%;
 } 
 
-.hero img {
-    filter: contrast(30%);
-}
-
-.color-wash {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: hsla(240, 1%, 17%, 0.7);
-    z-index: 10;
-}
-
 .Comming_Soon  {
 text-transform: uppercase;
 color: black;
@@ -191,21 +178,39 @@ margin-top: 200px;
     color: hsl(32, 92%, 33%);
 }
 
+
+.hero img {
+    filter: contrast(50%);
+}
+
+.color-wash {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(222, 18%, 11%, 0.3);
+    z-index: 10;
+}
+
+
 .call-to-action {
     width: 100%;
     text-transform: uppercase;
     text-align: center;
-    z-index: 15;
+    z-index: 20;
 }
 
 .call-to-action a {
     font-size: 20px;
     display: inline-block;
-    border: 2px solid hsl(0, 0%, 62%);
+    border: 2px solid hsl(0, 0%, 96%);
     border-radius: 33%;
     padding: 12px;
     margin-top: 12px;
     text-align: center;
+    color: hsl(36, 4%, 96%);
+
 }
 .call-to-action a:hover{
     color: hsl(32, 92%, 33%);
@@ -216,9 +221,9 @@ margin-top: 200px;
 
 .call-to-action p {
     font-size: 36px;
-    color: hsl(0, 0%, 62%);
+    color: hsl(36, 4%, 96%);
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
