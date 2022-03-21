@@ -1,6 +1,5 @@
+# Solo Wireframe:
 
-
-#Solo Wireframe:
-[Solo Wireframe](https://btslagle.github.io/solo_wireframe/)
+Deployed site:  https://btslagle.github.io/solo_wireframe/
 
 
